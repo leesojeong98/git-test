@@ -1,6 +1,37 @@
 {
   "name": "test",
   "version": "1.0.0",
+  "description": "",
   "main": "index.js",
-  "license": "MIT"
+  "scripts": {
+    "build": "webpack --watch",
+    "dev": "webpack server --progress"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leesojeong98/git-test.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/leesojeong98/git-test/issues"
+  },
+  "homepage": "https://github.com/leesojeong98/git-test#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.17.6",
+    "@babel/core": "^7.17.5",
+    "@babel/node": "^7.16.8",
+    "@babel/preset-env": "^7.16.11",
+    "babel-loader": "^8.2.3",
+    "css-loader": "^6.7.0",
+    "html-webpack-plugin": "^5.5.0",
+    "mini-css-extract-plugin": "^2.6.0",
+    "sass": "^1.49.9",
+    "sass-loader": "^12.6.0",
+    "style-loader": "^3.3.1",
+    "webpack": "^5.70.0",
+    "webpack-cli": "^4.9.2",
+    "webpack-dev-server": "^4.7.4"
+  }
 }
